@@ -1,0 +1,74 @@
+/*
+ * Copyright (c) 2020. All rights reserved by Woliul Hasan. Fork me on https://github.com/hmwoliul
+ */
+
+BODY {
+    MARGIN: 0;
+    padding: 0 0;
+}
+
+H1 {
+    MARGIN-BOTTOM: 10px;
+    FONT-WEIGHT: normal
+}
+
+H3 {
+    COLOR: #828c29
+}
+
+H5 {
+    COLOR: #828c29
+}
+
+H2 {
+    COLOR: #6f899c
+}
+
+H4 {
+    COLOR: #6f899c
+}
+
+H6 {
+    COLOR: #6f899c
+}
+
+A:link {
+    COLOR: #828c29
+}
+
+A:visited {
+    COLOR: #828c29
+}
+
+.tb1 {
+    width: 90%;
+    border: 0px;
+    align: center;
+    bgcolor: #F4F4F4;
+    style: margin auto;
+}
+
+.tb2 {
+    width: 100%;
+    border: 0px;
+}
+
+.td1 {
+    width: 100%;
+    align: center;
+}
+
+.td2 {
+    align: center;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.td3 {
+    align: center;
+    height: 60px;
+}
+
+.td4 {
+    align: center;
+}

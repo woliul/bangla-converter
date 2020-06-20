@@ -1,0 +1,112 @@
+/*
+ * Copyright (c) 2020. All rights reserved by Woliul Hasan. Fork me on https://github.com/hmwoliul
+ */
+
+#middle {
+    width: 100%;
+    min-height: 400px;
+    clear: both;
+    overflow: hidden
+}
+
+#middle {
+    position: relative;
+}
+
+#middle-expand {
+    width: 200%
+}
+
+#main {
+    position: relative;
+    width: 50%;
+    float: left;
+    left: 50%
+}
+
+#main-shift {
+    border: #f0f 0px solid;
+    margin-left: 255px;
+    margin-right: 230px;
+    position: relative;
+    overflow: hidden;
+    left: -100%
+}
+
+.div_clear {
+    clear: both;
+    border: solid 0px #00c
+}
+
+#converter_area {
+    width: 100%;
+    margin-top: 0px;
+    border: 0px solid red
+}
+
+#bijoy_head {
+    width: 100%;
+    font-size: 16px;
+    color: gray;
+    text-align: left
+}
+
+textarea {
+    overflow: auto;
+}
+
+.bijoy_textarea {
+    width: 98%;
+    height: 200px;
+    font-family: SutonnyMJ;
+    font-size: 22px;
+    color: #000;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px
+}
+
+.bijoy_textarea:focus {
+    width: 98%;
+    height: 200px;
+    font-family: SutonnyMJ;
+    color: #000;
+    border: 1px solid #5ab4e6;
+    box-shadow: 0 0 5px #7dbef1;
+    -moz-box-shadow: 0 0 5px #7dbef1;
+    -webkit-box-shadow: 0 0 5px #7dbef1
+}
+
+#unicode_head {
+    width: 100%;
+    font-size: 20px;
+    color: #0080ff;
+    text-align: center;
+    background-color: silver
+}
+
+.unicode_textarea {
+    width: 98%;
+    height: 200px;
+    font-family: solaimanLipi;
+    font-size: 22px;
+    color: #000;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px
+}
+
+.unicode_textarea:focus {
+    width: 98%;
+    height: 200px;
+    border: 1px solid #5ab4e6;
+    box-shadow: 0 0 5px #7dbef1;
+    -moz-box-shadow: 0 0 5px #7dbef1;
+    -webkit-box-shadow: 0 0 5px #7dbef1
+}
