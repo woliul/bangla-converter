@@ -2717,7 +2717,7 @@
      */
     function applyStyle(data) {
         // any property present in `data.styles` will be applied to the popper,
-        // in this way we can make the 3rd party modifiers add config styles to it
+        // in this way we can make the 3rd party modifiers add .config styles to it
         // Be aware, modifiers could override the properties defined in the previous
         // lines of this modifier!
         setStyles(data.instance.popper, data.styles);
@@ -3835,7 +3835,7 @@
          *
          * Note that this modifier will not touch the DOM, it just prepares the styles
          * so that `applyStyle` modifier can apply it. This separation is useful
-         * in case you need to replace `applyStyle` with a config implementation.
+         * in case you need to replace `applyStyle` with a .config implementation.
          *
          * This modifier has `850` as `order` value to maintain backward compatibility
          * with previous versions of Popper.js. Expect the modifiers ordering method
@@ -4012,7 +4012,7 @@
              * @class Popper
              * @param {Element|referenceObject} reference - The reference element used to position the popper
              * @param {Element} popper - The HTML / XML element used as the popper
-             * @param {Object} options - Your config options to override the ones defined in [Defaults](#defaults)
+             * @param {Object} options - Your .config options to override the ones defined in [Defaults](#defaults)
              * @return {Object} instance - The generated Popper.js instance
              */
             function Popper(reference, popper) {
@@ -4114,7 +4114,7 @@
 
 
                 /**
-                 * Collection of utilities useful when writing config modifiers.
+                 * Collection of utilities useful when writing .config modifiers.
                  * Starting from version 1.7, this method is available only if you
                  * include `popper-utils.js` before `popper.js`.
                  *
@@ -7030,4 +7030,4 @@
     Object.defineProperty(exports, '__esModule', {value: true});
 
 }));
-//# sourceMappingURL=bootstrap.bundle.js.map
+//# sourceMappingURL=.bootstrap.bundle.js.map
