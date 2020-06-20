@@ -72,3 +72,22 @@ A:visited {
 .td4 {
     align: center;
 }
+
+.btn-bijoy {
+    color: #fff;
+    background-color: #01abfa;
+    border-color: #007ab8
+}
+
+.btn-bijoy:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34
+}
+
+.btn-bijoy.focus, .btn-bijoy:focus {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+    box-shadow: 0 0 0 .2rem rgba(72, 180, 97, .5)
+}
